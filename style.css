@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;0,800;1,400;1,700&display=swap');
+
+img.kamae_logo {
+  max-width: 100%;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+ body{
+  font-family: 'Montserrat', sans-serif;
+ }
+
+  th, td {
+    border: 3px solid rgb(105, 93, 93);
+    padding: 8px;
+    text-align: left;    
+    text-align: center;
+    margin: auto;
+  }
+  
+  th {
+    background-color:#9478F4;
+
+  }
+
+  table tr:hover {
+    background-color: #FF7A3D;
+    color: white;
+    transition: 0.3s;
+
+  }
+  
+  
+  button:hover {
+    background-color: rgb(167, 235, 176);
+    transition: 0.3s;
+  }
+  
+  button:active {
+    background-color: rgb(2, 20, 5);
+  }
+ 
+  
+  .go-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 32px;
+    border-radius: 10px;
+    font-size: 16px;
+    width : 50%;
+    cursor: pointer;
+  }
+  
+  
+  @media screen and (max-width: 767px) {
+    table {
+      width: 100%;
+      overflow-x: scroll;
+    }
+  
+    th, td {
+      padding: 5px;
+      font-size: 14px;
+    }
+    
+    .go-button {
+      width: 80%;
+      font-size: 12px;
+    }
+  }
+  
+  @media screen and (max-width: 400px) {
+    
+    table {
+      width: 100%;
+      overflow-x: scroll;
+    }
+  
+    th, td {
+      padding: 5px;
+      font-size: 12px;
+    }
+    
+    .go-button {
+      width: 100%;
+      font-size: 10px;
+    }
+  }
+  
+  
+    
